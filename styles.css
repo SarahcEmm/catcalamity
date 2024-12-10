@@ -1,0 +1,46 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    background-color: #fce4d6;
+    overflow: hidden;
+  }
+  #game-container {
+    position: relative;
+    width: 100%; /* Full width of the browser */
+    height: 80vh; /* 80% of the browser's height */
+    max-height: 800px; /* Optional max height for large screens */
+    background: linear-gradient(to bottom, #87ceeb, #f4a460);
+    overflow: hidden;
+    border: 2px solid black; /* Optional border for better visibility */
+  }
+  .fence {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 20px;
+    background: url('Designer__42_-removebg-preview.png') repeat-x; /* Repeat the image horizontally */
+    background-size: contain; /* Scale the image appropriately */
+  }
+  .cat {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: url('Designer__39_-removebg-preview.png') no-repeat center center;
+    background-size: contain;
+    transform: translateX(-50%);
+  }
+  .yarn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url('Designer__40_-removebg-preview.png') no-repeat center center;
+    background-size: contain;
+  }
+  #score {
+    font-size: 24px;
+    margin-top: 20px;
+  }
